@@ -1,0 +1,56 @@
+.mainContainer{
+
+   height: 500px;
+   width: 30%;
+   padding: 3%;
+   background-color: black;
+
+}
+.smallContainer{
+
+  height: 95%;
+  padding: 3%;
+  background-color: yellow;
+}
+.ButtonContainer{
+  display: flex;
+  flex-wrap: wrap;
+  height: 90%;
+}
+.cal{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width:813px){
+  .mainContainer{
+
+     height: 500px;
+     width: 50%;
+     padding: 4%;
+     background-color: black;
+  
+  }
+  .smallContainer{
+
+    height: 95%;
+    padding: 3%;
+    background-color: yellow;
+  }
+  .ButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+  }
+  .cal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}

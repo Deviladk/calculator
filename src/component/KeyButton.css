@@ -1,0 +1,12 @@
+.ButtonKeyContainer{
+  height: 10%;
+  width: 20%;
+  margin: 2%;
+  font-weight: bolder;
+}
+.ButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
